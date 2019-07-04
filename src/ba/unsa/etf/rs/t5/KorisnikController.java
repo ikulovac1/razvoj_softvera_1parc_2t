@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.PasswordField;
+import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 
 public class KorisnikController {
@@ -13,6 +14,7 @@ public class KorisnikController {
     public TextField fldUsername;
     public ListView<Korisnik> listKorisnici;
     public PasswordField fldPassword;
+   // public Slider
 
     private KorisniciModel model;
 
@@ -79,6 +81,7 @@ public class KorisnikController {
             } else {
                 fldEmail.getStyleClass().removeAll("poljeIspravno");
                 fldEmail.getStyleClass().add("poljeNijeIspravno");
+               // fldEmail.getCharacters(@);
             }
         });
 
@@ -110,5 +113,8 @@ public class KorisnikController {
 
     public void krajAction(ActionEvent actionEvent) {
         System.exit(0);
+    }
+
+    public void generisiAction(ActionEvent actionEvent) {
     }
 }

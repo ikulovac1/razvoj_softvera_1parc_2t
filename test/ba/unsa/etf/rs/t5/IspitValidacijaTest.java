@@ -236,4 +236,4 @@ class IspitValidacijaTest {
 
         assertTrue(sadrziStil(ime, "poljeIspravno"));
     }
-}*/
+} */

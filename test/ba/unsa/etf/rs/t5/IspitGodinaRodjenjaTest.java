@@ -112,4 +112,4 @@ class IspitGodinaRodjenjaTest {
         Slider slider = robot.lookup("#sliderGodinaRodjenja").queryAs(Slider.class);
         assertEquals(1990, slider.getValue());
     }
-}*/
+} */

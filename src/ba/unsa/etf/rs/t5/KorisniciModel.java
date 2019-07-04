@@ -3,6 +3,7 @@ package ba.unsa.etf.rs.t5;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 
 public class KorisniciModel {
     private ObservableList<Korisnik> korisnici = FXCollections.observableArrayList();
@@ -41,5 +42,16 @@ public class KorisniciModel {
 
     public void setTrenutniKorisnik(int i) {
         this.trenutniKorisnik.set(korisnici.get(i));
+    }
+
+    public void generisiAction(ActionEvent actionEvent) {
+
+
+    }
+
+    public void dodajAction(ActionEvent actionEvent) {
+    }
+
+    public void krajAction(ActionEvent actionEvent) {
     }
 }

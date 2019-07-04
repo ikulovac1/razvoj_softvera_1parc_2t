@@ -1,5 +1,6 @@
 package ba.unsa.etf.rs.t5;
 
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
 public class Korisnik {
@@ -11,6 +12,7 @@ public class Korisnik {
         this.email = new SimpleStringProperty(email);
         this.username = new SimpleStringProperty(username);
         this.password = new SimpleStringProperty(password);
+       // this.godinaRodjenja=new SimpleIntegerProperty(rodjenje)
     }
 
     @Override

@@ -106,4 +106,4 @@ class IspitGenerisiTest {
         ObservableList<Korisnik> korisniks = model.getKorisnici();
         assertEquals("", korisniks.get(4).getUsername());
     }
-}*/
+} */
